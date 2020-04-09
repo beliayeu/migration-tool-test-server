@@ -1,0 +1,26 @@
+{
+  "name": "migration-tool-test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-html": "node generate-html.js",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beliayeu/migration-tool-test-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beliayeu/migration-tool-test-server/issues"
+  },
+  "homepage": "https://github.com/beliayeu/migration-tool-test-server#readme",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "http-server": "^0.12.1"
+  }
+}
