@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generate-html": "node generate-html.js",
-    "start": "http-server",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/beliayeu/migration-tool-test-server#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "glob": "^7.1.6",
     "http-server": "^0.12.1"
   }
