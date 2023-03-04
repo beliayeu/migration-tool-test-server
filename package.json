@@ -21,6 +21,6 @@
   "homepage": "https://github.com/beliayeu/migration-tool-test-server#readme",
   "dependencies": {
     "glob": "^7.1.6",
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.3"
   }
 }
